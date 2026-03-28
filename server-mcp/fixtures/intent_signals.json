@@ -1,0 +1,167 @@
+{
+  "ent_001": {
+    "7d": [
+      {
+        "signal_id": "sig_001_001",
+        "topic": "industrial automation",
+        "source": "web_search",
+        "strength": 0.82,
+        "timestamp": "2026-02-26T14:23:00Z",
+        "metadata": { "keyword": "robotic process automation manufacturing", "page_views": 12 }
+      },
+      {
+        "signal_id": "sig_001_002",
+        "topic": "ERP modernization",
+        "source": "content_consumption",
+        "strength": 0.67,
+        "timestamp": "2026-02-25T09:11:00Z",
+        "metadata": { "content_type": "whitepaper", "title": "Migrating from Legacy SAP" }
+      }
+    ],
+    "30d": [
+      {
+        "signal_id": "sig_001_001",
+        "topic": "industrial automation",
+        "source": "web_search",
+        "strength": 0.82,
+        "timestamp": "2026-02-26T14:23:00Z",
+        "metadata": { "keyword": "robotic process automation manufacturing", "page_views": 12 }
+      },
+      {
+        "signal_id": "sig_001_002",
+        "topic": "ERP modernization",
+        "source": "content_consumption",
+        "strength": 0.67,
+        "timestamp": "2026-02-25T09:11:00Z",
+        "metadata": { "content_type": "whitepaper", "title": "Migrating from Legacy SAP" }
+      },
+      {
+        "signal_id": "sig_001_003",
+        "topic": "supply chain visibility",
+        "source": "job_posting",
+        "strength": 0.74,
+        "timestamp": "2026-02-10T00:00:00Z",
+        "metadata": { "job_title": "Supply Chain Data Engineer", "platform": "LinkedIn" }
+      }
+    ]
+  },
+  "ent_002": {
+    "7d": [
+      {
+        "signal_id": "sig_002_001",
+        "topic": "AI marketing attribution",
+        "source": "web_search",
+        "strength": 0.91,
+        "timestamp": "2026-02-27T16:45:00Z",
+        "metadata": { "keyword": "multi-touch attribution AI", "page_views": 27 }
+      }
+    ],
+    "30d": [
+      {
+        "signal_id": "sig_002_001",
+        "topic": "AI marketing attribution",
+        "source": "web_search",
+        "strength": 0.91,
+        "timestamp": "2026-02-27T16:45:00Z",
+        "metadata": { "keyword": "multi-touch attribution AI", "page_views": 27 }
+      },
+      {
+        "signal_id": "sig_002_002",
+        "topic": "CDP evaluation",
+        "source": "review_site",
+        "strength": 0.78,
+        "timestamp": "2026-02-14T11:30:00Z",
+        "metadata": { "site": "G2", "category": "Customer Data Platform" }
+      },
+      {
+        "signal_id": "sig_002_003",
+        "topic": "data warehouse scaling",
+        "source": "job_posting",
+        "strength": 0.65,
+        "timestamp": "2026-02-05T00:00:00Z",
+        "metadata": { "job_title": "Senior Analytics Engineer", "platform": "Greenhouse" }
+      }
+    ]
+  },
+  "ent_003": {
+    "7d": [],
+    "30d": [
+      {
+        "signal_id": "sig_003_001",
+        "topic": "energy data APIs",
+        "source": "web_search",
+        "strength": 0.88,
+        "timestamp": "2026-02-18T08:00:00Z",
+        "metadata": { "keyword": "real-time energy consumption API", "page_views": 19 }
+      },
+      {
+        "signal_id": "sig_003_002",
+        "topic": "grid management software",
+        "source": "content_consumption",
+        "strength": 0.72,
+        "timestamp": "2026-02-12T14:20:00Z",
+        "metadata": { "content_type": "case_study", "title": "Smart Grid Ops at Scale" }
+      }
+    ]
+  },
+  "ent_004": {
+    "7d": [
+      {
+        "signal_id": "sig_004_001",
+        "topic": "clinical data interoperability",
+        "source": "conference",
+        "strength": 0.85,
+        "timestamp": "2026-02-24T00:00:00Z",
+        "metadata": { "event": "HIMSS 2026", "booth_scan": true }
+      }
+    ],
+    "30d": [
+      {
+        "signal_id": "sig_004_001",
+        "topic": "clinical data interoperability",
+        "source": "conference",
+        "strength": 0.85,
+        "timestamp": "2026-02-24T00:00:00Z",
+        "metadata": { "event": "HIMSS 2026", "booth_scan": true }
+      },
+      {
+        "signal_id": "sig_004_002",
+        "topic": "FHIR API compliance",
+        "source": "web_search",
+        "strength": 0.79,
+        "timestamp": "2026-02-08T10:15:00Z",
+        "metadata": { "keyword": "FHIR R4 implementation guide", "page_views": 8 }
+      }
+    ]
+  },
+  "ent_005": {
+    "7d": [
+      {
+        "signal_id": "sig_005_001",
+        "topic": "CI/CD pipeline tooling",
+        "source": "web_search",
+        "strength": 0.76,
+        "timestamp": "2026-02-28T12:00:00Z",
+        "metadata": { "keyword": "GitHub Actions vs CircleCI 2026", "page_views": 5 }
+      }
+    ],
+    "30d": [
+      {
+        "signal_id": "sig_005_001",
+        "topic": "CI/CD pipeline tooling",
+        "source": "web_search",
+        "strength": 0.76,
+        "timestamp": "2026-02-28T12:00:00Z",
+        "metadata": { "keyword": "GitHub Actions vs CircleCI 2026", "page_views": 5 }
+      },
+      {
+        "signal_id": "sig_005_002",
+        "topic": "observability platforms",
+        "source": "review_site",
+        "strength": 0.69,
+        "timestamp": "2026-02-20T09:45:00Z",
+        "metadata": { "site": "G2", "category": "Application Performance Monitoring" }
+      }
+    ]
+  }
+}

@@ -1,0 +1,14 @@
+[project]
+name = "server-mcp"
+version = "0.1.0"
+description = "Conduit MCP server — firmographics + intent signals"
+requires-python = ">=3.13"
+dependencies = [
+    "mcp[cli]>=1.26.0",
+]
+
+[tool.setuptools.packages.find]
+include = ["conduit*"]
+
+[project.scripts]
+conduit-server = "conduit.server:main"
