@@ -1,5 +1,7 @@
 # Conduit
 
+![Conduit Architecture](./conduit_thumbnail.svg)
+
 **A Python-based Model Context Protocol (MCP) server for enterprise knowledge management**
 
 Conduit is a custom MCP server with schema-validated tools and structured error handling, built to demonstrate how AI agents can reliably access enterprise data through standardized, secure interfaces.
