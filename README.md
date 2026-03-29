@@ -6,7 +6,7 @@ Conduit is a custom MCP server with schema-validated tools and structured error 
 
 ## What It Does
 
-Conduit exposes atomic tools for enterprise data operations — `lookup_company` (firmographic retrieval by domain or name) and `get_intent_signals` (intent signal retrieval by entity and time window) — backed by fixture data and validated against defined input/output schemas. The server implements a structured error taxonomy, timeout handling, and retry logic. It also exposes MCP resources (schema definitions and signal-source catalogs) that clients can introspect at runtime. A companion CLI client provides smoke-test coverage for both the happy path and error cases.
+Conduit exposes atomic tools for enterprise data operations — `lookup_company` (firmographic retrieval by domain or name) and `get_intent_signals` (intent signal retrieval by entity and time window) — backed by fixture data and validated against defined input/output schemas. The use case is to help sales teams answer: "Which companies should we target, and why now?"The server implements a structured error taxonomy, timeout handling, and retry logic. It also exposes MCP resources (schema definitions and signal-source catalogs) that clients can introspect at runtime. A companion CLI client provides smoke-test coverage for both the happy path and error cases.
 
 ## Why I Built It
 
